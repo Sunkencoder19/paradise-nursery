@@ -1,0 +1,25 @@
+{
+  "name": "paradise-nursery",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://sunkencoder19.github.io/paradise-nursery/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.13.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-redux": "^9.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "gh-pages": "^6.3.0",
+    "vite": "^8.3.4"
+  }
+}
