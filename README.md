@@ -3,8 +3,6 @@
 Paradise Nursery is an online plant shop where you can browse air purifying, aromatic and low maintenance houseplants.
 Add plants to your cart, adjust quantities and see your totals update instantly.
 
-**Live demo:** https://sunkencoder19.github.io/paradise-nursery/
-
 ## Features
 
 - **Landing page** with a full-screen background, a short introduction to the company and a "Get Started" button
@@ -22,7 +20,6 @@ Add plants to your cart, adjust quantities and see your totals update instantly.
 - [React](https://react.dev/): UI components
 - [Redux Toolkit](https://redux-toolkit.js.org/) and [React Redux](https://react-redux.js.org/): cart state management
 - [Vite](https://vite.dev/): development server and build tool
-- [gh-pages](https://www.npmjs.com/package/gh-pages): deployment to GitHub Pages
 
 ## Project Structure
 
@@ -68,14 +65,4 @@ Then open the local URL printed in the terminal.
 | `npm run dev`     | Start the development server                   |
 | `npm run build`   | Build the app for production into `dist/`      |
 | `npm run preview` | Preview the production build locally           |
-| `npm run deploy`  | Build and publish `dist/` to GitHub Pages      |
 
-## Deployment
-
-The app is deployed to GitHub Pages using `gh-pages`. To publish a new version, run:
-
-```bash
-npm run deploy
-```
-
-This builds the project and pushes the `dist/` folder to the `gh-pages` branch. The site is then available at https://sunkencoder19.github.io/paradise-nursery/.

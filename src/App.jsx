@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import AboutUs from './AboutUs.jsx'
 import ProductList from './ProductList.jsx'
 import CartItem from './CartItem.jsx'
@@ -6,6 +6,10 @@ import './App.css'
 
 function App() {
   const [page, setPage] = useState('home')
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [page])
 
   if (page === 'plants') {
     return <ProductList navigate={setPage} />
