@@ -3,6 +3,10 @@
 Paradise Nursery is an online plant shop where you can browse air purifying, aromatic and low maintenance houseplants.
 Add plants to your cart, adjust quantities and see your totals update instantly.
 
+## Deployment Link
+
+https://sunkencoder19.github.io/paradise-nursery/
+
 ## Features
 
 - **Landing page** with a full-screen background, a short introduction to the company and a "Get Started" button
